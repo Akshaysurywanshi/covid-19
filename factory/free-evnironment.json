@@ -1,0 +1,9 @@
+{
+	"name": "free-evnironment",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3796b34d-cb17-42f2-98fe-e0a1bbc7dd7d",
+		"tenantId": "5e1ec174-cb14-4662-8837-aaf640a8e388"
+	}
+}
