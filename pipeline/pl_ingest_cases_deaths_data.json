@@ -1,9 +1,9 @@
 {
-	"name": "pl_ingest_population_data",
+	"name": "pl_ingest_cases_deaths_data",
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data1",
+				"name": "Copy cases and deaths data",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -60,8 +60,6 @@
 				]
 			}
 		],
-		"annotations": [],
-		"lastPublishTime": "2024-05-08T17:18:04Z"
-	},
-	"type": "Microsoft.DataFactory/factories/pipelines"
+		"annotations": []
+	}
 }
