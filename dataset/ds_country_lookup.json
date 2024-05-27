@@ -1,5 +1,5 @@
 {
-	"name": "ds_raw_cases_and_deaths",
+	"name": "ds_country_lookup",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "adls_covidreportingdl",
@@ -10,9 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "46 - case-deaths-uk-ind-only.csv",
-				"folderPath": "ecdc",
-				"fileSystem": "raw"
+				"fileName": "46 - country-lookup.csv",
+				"fileSystem": "lookup"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
@@ -21,23 +20,23 @@
 		},
 		"schema": [
 			{
-				"name": "Country",
+				"name": "country",
 				"type": "String"
 			},
 			{
-				"name": "Response_measure",
+				"name": "country_code_2_digit",
 				"type": "String"
 			},
 			{
-				"name": "change",
+				"name": "country_code_3_digit",
 				"type": "String"
 			},
 			{
-				"name": "date_start",
+				"name": "continent",
 				"type": "String"
 			},
 			{
-				"name": "date_end",
+				"name": "population",
 				"type": "String"
 			}
 		]
