@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "46 - case-deaths-uk-ind-only.csv",
-				"folderPath": "ecdc/cases_deaths",
+				"fileName": "case-deaths-uk-ind-only.csv",
+				"folderPath": "ecdc",
 				"fileSystem": "raw"
 			},
 			"columnDelimiter": ",",
