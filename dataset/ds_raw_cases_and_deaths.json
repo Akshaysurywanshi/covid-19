@@ -11,7 +11,7 @@
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"fileName": "46 - case-deaths-uk-ind-only.csv",
-				"folderPath": "ecdc",
+				"folderPath": "ecdc/cases_deaths",
 				"fileSystem": "raw"
 			},
 			"columnDelimiter": ",",
